@@ -1,1 +1,13 @@
-<html>Challenge 3</html>
+<!doctype html>
+
+<html lang="en">
+	<body>
+		<div id="time">HOSTADDRESS is WORKING</div>
+	</body>
+	<script>
+		var date = new Date();
+		var n = date.toDateString();
+		var time = date.toLocaleTimeString();
+		document.getElementById('time').innerHTML += ': ' + n + ' ' + time;
+	</script>
+</html>
